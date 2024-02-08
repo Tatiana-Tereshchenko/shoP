@@ -5,6 +5,7 @@
   padding: 0;
 }
 
+
 body {
   background: #fff;
   color: #222;
@@ -16,7 +17,9 @@ body {
   width: 1200px;
   margin: 50px auto;
 }
-
+header {
+  position: relative;
+}
 header .logo {
   font-weight: 600;
   font-size: 20px;
@@ -37,6 +40,30 @@ header ul.nav li:hover {
   opacity: 0.5;
 }
 
+header .shop-cart-button {
+  float: right;
+  cursor: pointer;
+  transition: color, transform  500ms esse;
+  }
+
+header .shop-cart-button:hover,
+header .shop-cart-button.active {
+  color: #dc3d3d;
+  transform: scale(1.5);
+  }
+
+header .shop-cart {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 450px;
+  min-height: 100px;
+  background: #fafafa;
+  box-shadow: 21px 20px 19px -17px rgba(35,29,29,1);
+  -webkit-box-shadow: 21px 20px 19px -17px rgba(35,29,29,1);
+  -moz-box-shadow: 21px 20px 19px -17px rgba(35,29,29,1);
+  z-index: 1000;
+}
 header .presentation {
   margin: 50px 0;
   background: url('./img/pexels-vecislavas-popa-1643383.jpg') no-repeat;
