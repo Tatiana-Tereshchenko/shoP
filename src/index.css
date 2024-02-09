@@ -54,15 +54,46 @@ header .shop-cart-button.active {
 
 header .shop-cart {
   position: absolute;
+  border: solid 4px #333;
+  border-radius: 10px;
+  min-height: 50px;
   top: 30px;
   right: 0;
   width: 450px;
-  min-height: 100px;
   background: #fafafa;
   box-shadow: 21px 20px 19px -17px rgba(35,29,29,1);
   -webkit-box-shadow: 21px 20px 19px -17px rgba(35,29,29,1);
   -moz-box-shadow: 21px 20px 19px -17px rgba(35,29,29,1);
   z-index: 1000;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+header .shop-cart .empty h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+header .shop-cart .item {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+header .shop-cart .item  img {
+  width: 70px;
+  height: 80px;
+  float: left;
+  margin-right: 20px;
+}
+
+header .shop-cart .item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+header .shop-cart .item p {
+  color: #797979;
+  font-weight: 600;
 }
 header .presentation {
   margin: 50px 0;
@@ -156,3 +187,4 @@ main .add-to-card {
 main .add-to-card:hover {
   transform: scale(1.5) translateY(-5px);
 }
+
