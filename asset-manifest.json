@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/shop/static/css/main.2b8ac640.css",
+    "main.js": "/shop/static/js/main.03863359.js",
+    "static/media/pexels-vecislavas-popa-1643383.jpg": "/shop/static/media/pexels-vecislavas-popa-1643383.10f677a3c71c782cb34f.jpg",
+    "index.html": "/shop/index.html",
+    "main.2b8ac640.css.map": "/shop/static/css/main.2b8ac640.css.map",
+    "main.03863359.js.map": "/shop/static/js/main.03863359.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b8ac640.css",
+    "static/js/main.03863359.js"
+  ]
+}
